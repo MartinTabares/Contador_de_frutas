@@ -1,24 +1,13 @@
-# hello-world
+#Contador de Frutas
 
-## Project setup
+Para visualizar el proyecto ejecutar:
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Ingresar en http://localhost:8080/ o el puerto que tengas configurado en tu local.
+Clickeando en el nombre de las frutas podés aumentar el contador de cada una y con el botón reiniciar se vuelve a 0 toda la lista. 
