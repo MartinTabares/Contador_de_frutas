@@ -1,4 +1,4 @@
-#Contador de Frutas
+# Contador de Frutas
 
 Para visualizar el proyecto ejecutar:
 
