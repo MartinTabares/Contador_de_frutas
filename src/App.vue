@@ -1,19 +1,20 @@
 <template>
-<div id="app">
-    <Cabecera />
-    <Lista />
-</div>
+	<div id="app">
+		<NavBar />
+		<Products />
+	</div>
 </template>
 
 <script>
-import Cabecera from './components/Cabecera.vue'
-import Lista from './components/Lista.vue'
+import NavBar from './components/NavBar.vue'
+import Products from './components/Products.vue';
+// import MainView from './components/MainView.vue'
 
 export default {
-    name: 'App',
-    components: {
-        Cabecera,
-        Lista
-    }
+	name: 'App',
+	components: {
+		NavBar,
+		Products
+	}
 }
 </script>
